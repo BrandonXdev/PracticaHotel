@@ -21,4 +21,13 @@ public class Habitacion extends Alojamiento{
         this.numeroPiso = numeroPiso;
         this.balcon = balcon;
     }
+<<<<<<< HEAD
+=======
+
+    @Override
+    public String toString() {
+        return super.toString() +
+         "Numero de piso: " + numeroPiso + "\nBalcon: " + balcon;
+    }
+>>>>>>> Habitaciones
 }
