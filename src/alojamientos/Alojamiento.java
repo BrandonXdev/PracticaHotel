@@ -46,7 +46,11 @@ public abstract class Alojamiento {
         this.precioPorNoche = precioPorNoche;
         this.disponible = disponible;
     }
-    
-    
-    
+
+    @Override
+    public String toString() {
+        return "Codigo: " + codigo + "\nNombre: " + nombre + 
+                "\nCapacidad Maxima: " + capacidadMaxima + "\nPrecio por noche: " 
+                + precioPorNoche + "\nDisponibilidad: " + disponible;
+    }
 }
