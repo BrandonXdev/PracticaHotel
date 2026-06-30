@@ -8,6 +8,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import personas.Cliente;
 
+
 /**
  *
  * @author brand
@@ -18,7 +19,7 @@ public class Actividad {
     private LocalTime hora;
     private int cupoMaximo;
     private Cliente[] clientes;
-    private TipoActividad tipo;
+    private TipoActividades tipo;
 
     public String getNombre() {
         return nombre;
@@ -40,7 +41,7 @@ public class Actividad {
         return clientes;
     }
 
-    public Actividad(String nombre, LocalDate fecha, LocalTime hora, int cupoMaximo, TipoActividad tipo) {
+    public Actividad(String nombre, LocalDate fecha, LocalTime hora, int cupoMaximo, TipoActividades tipo) {
         this.nombre = nombre;
         this.fecha = fecha;
         this.hora = hora;
